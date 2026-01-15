@@ -11,4 +11,3 @@ $scoreboard players set @s gm.EditConfig.SourcePAGE $(PAGE)
 function gm:zprivate/dialog/edit_gui/page/get_items/format with storage gm:storage temp.DIALOG.list.MAIN[0]
 function gm:zprivate/dialog/edit_gui/page/get_items/show with storage gm:storage temp.DIALOG.list
 
-

@@ -7,3 +7,5 @@ $data modify block ~ ~ ~ Items set from storage gm:storage GUI[{GUI_ID:$(GUI_ID)
 function gm:zprivate/prerequisites/main
 execute as @e[tag=_gui.temp,type=marker] at @s run data modify entity @s data.Items set from block ~ ~ ~ Items
 tag @e remove _gui.temp
+
+
