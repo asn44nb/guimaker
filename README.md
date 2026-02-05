@@ -1,4 +1,6 @@
-![GUI Maker Banner](banner.png)
+<p align="center">
+  <img src="banner.png" alt="GUI Maker Banner" width="100%">
+</p>
 
 # GUI Maker
 
