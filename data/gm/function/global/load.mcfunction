@@ -20,3 +20,4 @@ scoreboard objectives add gm.POS.FINAL dummy
 function gm:global/loop_1t
 
 scoreboard players set #loaded gm.Values 1
+playsound minecraft:entity.experience_orb.pickup master @a ~ ~ ~ 3
