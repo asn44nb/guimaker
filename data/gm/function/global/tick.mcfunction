@@ -13,4 +13,5 @@ execute as @e[tag=_gui.chestminecart.itemdisplay,type=item_display] at @s unless
 kill @e[type=item,nbt={Item:{components:{"minecraft:custom_data":{gui:{}}}}}]
 kill @e[type=item,nbt={Item:{components:{"minecraft:custom_data":{gui_itemholdercached:true}}}}]
 kill @e[type=item,nbt={Item:{components:{"minecraft:custom_data":{gui_toggledbuttoncached:true}}}}]
-clear @a *[minecraft:custom_data~{gui:{}},!minecraft:custom_data~{gui:{"item":"toggle_button","cached":true}},!minecraft:custom_data~{gui:{"item":"holder"}}]
+
+clear @a *[minecraft:custom_data~{gui:{}},!minecraft:custom_data~{gui:{"item":"toggle_button","cached":true}},!minecraft:custom_data~{gui:{"item":"holder"}},!custom_data={gui:{item:"data_driven_button"}}]
