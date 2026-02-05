@@ -1,4 +1,4 @@
-![GUI Maker Banner](bammer.png)
+![GUI Maker Banner](banner.png)
 
 # GUI Maker
 
