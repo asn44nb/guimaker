@@ -8,7 +8,7 @@ execute if data entity @s data.Items_init[{"components":{"minecraft:custom_data"
 execute if data entity @s data.Items_init[{"components":{"minecraft:custom_data":{gui_togglebuttoncached:true}}}] run function gm:zprivate/caching/toggle_button/main
 
 
-execute as @p run function gu:generate
+execute as @p[sort=furthest,limit=1] at @s positioned ~ ~ ~ rotated as @s run function gu:generate
 data modify storage gm:storage temp.macro.player set from storage gu:main out
 function gm:zprivate/execution/run_function/main with storage gm:storage temp.macro
 function gm:zprivate/execution/playsound/main with storage gm:storage temp.macro
